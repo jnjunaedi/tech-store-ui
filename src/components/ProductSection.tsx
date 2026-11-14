@@ -116,7 +116,7 @@ function ProductSection() {
               Terjual {p.sold} ⭐ {p.rating}
             </p>
             <p className="text-xs text-gray-500 truncate mt-1.5 flex gap-1 items-center">
-              <Store /> <p>{p.storeName}</p>
+              <Store size={20} /> <p>{p.storeName}</p>
             </p>
           </div>
         ))}

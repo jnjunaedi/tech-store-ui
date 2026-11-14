@@ -48,10 +48,10 @@ function CategorySection() {
   return (
     <section className="mx-2 mt-10">
       <h1 className="mb-3 text-xl font-bold">Kategori</h1>
-      <div className="flex flex-wrap gap-3 p-2">
+      <div className="grid grid-cols-4 sm:grid-cols-6 gap-3 p-2">
         {category.map((c) => (
-          <div key={c.id} className="text-center p-2.5 border rounded-md">
-            <img src={c.image} alt="" className="w-20" />
+          <div key={c.id} className="text-center p-2.5 border rounded-md w-full">
+            <img src={c.image} alt="" className="w-20 text-center mx-auto" />
             <p className="text-sm mt-1.5 text-stone-800">{c.title}</p>
           </div>
         ))}
