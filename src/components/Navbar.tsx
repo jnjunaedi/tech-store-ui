@@ -1,4 +1,4 @@
-import { LogOut, ShoppingCart, User } from "lucide-react";
+import { ShoppingCart, User } from 'lucide-react';
 
 function Navbar() {
   return (
