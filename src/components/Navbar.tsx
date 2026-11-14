@@ -3,7 +3,7 @@ import { Search, ShoppingCart, User } from 'lucide-react';
 function Navbar() {
   return (
     <nav className="flex justify-between items-center pt-2 pb-3">
-      <h1 className=" font-bold text-lg sm:text-xl hidden lg:block lg:w-32 ps-2 text-blue-600">Tech Shop</h1>
+      <h1 className=" font-bold text-lg sm:text-xl hidden lg:block lg:w-32 ps-2 text-blue-600">Tech Store</h1>
       <div className="flex justify-between w-full items-center">
         <div className="w-full relative mx-3">
           <input type="text" className="border me-2 bg-gray-50 w-full py-2.5 ps-2 focus:outline-none rounded-md" placeholder="Cari disini.." />

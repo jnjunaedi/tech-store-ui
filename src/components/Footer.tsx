@@ -17,10 +17,10 @@ function Footer() {
       </div>
       <div className=" mx-3 mt-5 lg:flex lg:justify-around lg:items-center">
         <div>
-          <h2 className="text-xl font-bold">Tech Shop</h2>
+          <h2 className="text-xl font-bold">Tech Store</h2>
           <div className="text-sm text-zinc-700">
             <p className="mt-3"> Hubungi kami (+62) 85834337651</p>
-            <p className="mt-1"> E-mail: tech@shop.com</p>
+            <p className="mt-1"> E-mail: tech@store.com</p>
             <p className="mt-1">Jl. Jenderal Sudirman No. 17, Jakarta Pusat, DKI Jakarta 10220, Indonesia</p>
           </div>
         </div>
